@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: AEM Nerd - UI content
+Content-Package-Roots: /conf/aemnerd,/content/aemnerd,/content/dam/aem
+ nerd,/content/experience-fragments/aemnerd
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: 91981
+Implementation-Vendor-Id: com.aemnerd
+Content-Package-Dependencies: com.aemnerd:aemnerd.ui.apps:1.0-SNAPSHOT
+Content-Package-Type: content
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_51
+Content-Package-Description: UI content package for AEM Nerd
+Content-Package-Id: com.aemnerd:aemnerd.ui.content:1.0-SNAPSHOT
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>AEM Nerd - All</comment>
+<entry key="createdBy">91981</entry>
+<entry key="allowIndexDefinitions">true</entry>
+<entry key="name">aemnerd.all</entry>
+<entry key="created">2021-08-31T11:56:56.998+05:30</entry>
+<entry key="groupId">com.aemnerd</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="packageType">mixed</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.aemnerd</entry>
+<entry key="description">All content package for AEM Nerd</entry>
+<entry key="artifactId">aemnerd.all</entry>
+</properties>

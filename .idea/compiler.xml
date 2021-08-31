@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aemnerd.it.tests" />
+        <module name="aemnerd.core" />
+        <module name="aemnerd.ui.apps.structure" />
+        <module name="aemnerd.it.launcher" />
+        <module name="aemnerd.all" />
+        <module name="aemnerd.ui.apps" />
+        <module name="aemnerd.ui.content" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aemnerd" target="1.8" />
+      <module name="aemnerd.all" target="1.8" />
+      <module name="aemnerd.core" target="1.8" />
+      <module name="aemnerd.it.launcher" target="1.8" />
+      <module name="aemnerd.it.tests" target="1.8" />
+      <module name="aemnerd.ui.apps" target="1.8" />
+      <module name="aemnerd.ui.apps.structure" target="1.8" />
+      <module name="aemnerd.ui.content" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

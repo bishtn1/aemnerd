@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: AEM Nerd - All
+Content-Package-Roots: /apps/aemnerd-packages,/apps/aemnerd-vendor-pac
+ kages,/etc/packages/adobe/consulting/acs-aem-commons-content-4.7.2.zi
+ p,/etc/packages/adobe/cq60/core.wcm.components.all-2.9.0.zip
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: 91981
+Implementation-Vendor-Id: com.aemnerd
+Content-Package-Type: mixed
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_51
+Content-Package-Description: All content package for AEM Nerd
+Content-Package-Id: com.aemnerd:aemnerd.all:1.0-SNAPSHOT
+

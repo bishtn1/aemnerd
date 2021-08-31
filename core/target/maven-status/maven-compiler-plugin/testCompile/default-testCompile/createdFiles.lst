@@ -1,0 +1,5 @@
+com\aemnerd\core\servlets\SimpleServletTest.class
+com\aemnerd\core\filters\LoggingFilterTest.class
+com\aemnerd\core\listeners\SimpleResourceListenerTest.class
+com\aemnerd\core\models\HelloWorldModelTest.class
+com\aemnerd\core\schedulers\SimpleScheduledTaskTest.class

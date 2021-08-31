@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: AEM Nerd - UI apps
+Content-Package-Roots: /apps/aemnerd
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: 91981
+Implementation-Vendor-Id: com.aemnerd
+Import-Package: com.aemnerd.core.models;version="[1.0.0,2.0.0)",org.ap
+ ache.sling.scripting.sightly;version="[2.0.0,3.0.0)"
+Content-Package-Type: application
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_51
+Content-Package-Description: UI apps package for AEM Nerd
+Content-Package-Id: com.aemnerd:aemnerd.ui.apps:1.0-SNAPSHOT
+
