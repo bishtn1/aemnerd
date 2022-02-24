@@ -4,4 +4,5 @@
     <filter root="/content/aemnerd" mode="merge"/>
     <filter root="/content/dam/aemnerd" mode="merge"/>
     <filter root="/content/experience-fragments/aemnerd" mode="merge"/>
+    <filter root="/etc/mobile/groups/anz-responsive" mode="merge"/>
 </workspaceFilter>

@@ -4,7 +4,7 @@ Bundle-Description: Bundles for Integration Tests for AEM Nerd
 Bundle-ManifestVersion: 2
 Bundle-Name: AEM Nerd - Integration Tests Bundles
 Bundle-SymbolicName: aemnerd.it.tests
-Bundle-Version: 1.0.0.20210831061958298
+Bundle-Version: 1.0.0.20220224040459859
 Export-Package: com.aemnerd.it.tests;version="1.0";uses:="org.apache.s
  ling.junit.annotations,org.junit,org.junit.runner"
 Import-Package: com.aemnerd.core.models;version="[1.0,2)",org.apache.s

@@ -1,6 +1,12 @@
 org\apache\sling\scripting\sightly\apps\aemnerd\components\page\customfooterlibs_html.class
+org\apache\sling\scripting\sightly\apps\aemnerd\components\structure\home\body_html.class
 org\apache\sling\scripting\sightly\apps\aemnerd\components\page\customheaderlibs_html.class
+org\apache\sling\scripting\sightly\apps\aemnerd\components\structure\content\body_html.class
+org\apache\sling\scripting\sightly\apps\aemnerd\components\structure\page\body_html.class
 org\apache\sling\scripting\sightly\apps\aemnerd\components\xfpage\customheaderlibs_html.class
-org\apache\sling\scripting\sightly\apps\aemnerd\components\helloworld\helloworld_html.class
 org\apache\sling\scripting\sightly\apps\aemnerd\components\xfpage\content_html.class
+org\apache\sling\scripting\sightly\apps\aemnerd\components\structure\page\customheaderlibs_html.class
 org\apache\sling\scripting\sightly\apps\aemnerd\components\xfpage\customfooterlibs_html.class
+org\apache\sling\scripting\sightly\apps\aemnerd\components\structure\page\customfooterlibs_html.class
+org\apache\sling\scripting\sightly\apps\aemnerd\components\structure\page\page_html.class
+org\apache\sling\scripting\sightly\apps\aemnerd\components\helloworld\helloworld_html.class

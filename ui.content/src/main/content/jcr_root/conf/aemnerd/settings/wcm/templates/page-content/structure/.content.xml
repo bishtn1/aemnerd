@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:deviceGroups="[/etc/mobile/groups/anz-responsive]"
         cq:template="/conf/aemnerd/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="aemnerd/components/page">
@@ -34,14 +34,30 @@
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">
-                <phone
+                <x-small
                     jcr:primaryType="nt:unstructured"
-                    title="Smaller Screen"
+                    title="320px"
+                    width="{Long}320"/>
+                <small
+                    jcr:primaryType="nt:unstructured"
+                    title="480px"
+                    width="{Long}480"/>
+                <medium
+                    jcr:primaryType="nt:unstructured"
+                    title="768px"
                     width="{Long}768"/>
-                <tablet
+                <large
                     jcr:primaryType="nt:unstructured"
-                    title="Tablet"
-                    width="{Long}1200"/>
+                    title="1024px"
+                    width="{Long}1024"/>
+                <x-large
+                    jcr:primaryType="nt:unstructured"
+                    title="1360px"
+                    width="{Long}1360"/>
+                <xx-large
+                    jcr:primaryType="nt:unstructured"
+                    title="1920px"
+                    width="{Long}1920"/>
             </breakpoints>
         </cq:responsive>
     </jcr:content>

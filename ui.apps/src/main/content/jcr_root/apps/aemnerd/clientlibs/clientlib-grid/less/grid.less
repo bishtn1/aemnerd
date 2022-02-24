@@ -19,21 +19,42 @@
 /* maximum amount of grid cells to be provided */
 @max_col: 12;
 
-/* default breakpoint */
 .aem-Grid {
-  .generate-grid(default, @max_col);
+    .generate-grid(default, @max_col);
 }
 
-/* phone breakpoint */
-@media (max-width: 650px) {
-  .aem-Grid {
-    .generate-grid(phone, @max_col);
-  }
+@media (max-width: 320px) {
+    .aem-Grid {
+        .generate-grid(x-small, @max_col);
+    }
 }
 
-/* tablet breakpoint */
-@media (min-width: 651px) and (max-width: 1200px) {
-  .aem-Grid {
-    .generate-grid(tablet, @max_col);
-  }
+@media (min-width: 320px) and (max-width: 480px) {
+    .aem-Grid {
+        .generate-grid(small, @max_col);
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .aem-Grid {
+        .generate-grid(medium, @max_col);
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .aem-Grid {
+        .generate-grid(large, @max_col);
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1360px) {
+    .aem-Grid {
+        .generate-grid(x-large, @max_col);
+    }
+}
+
+@media (min-width: 1360px) and (max-width: 1920px) {
+    .aem-Grid {
+        .generate-grid(xx-large, @max_col);
+    }
 }

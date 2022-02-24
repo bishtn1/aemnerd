@@ -4,8 +4,9 @@ Content-Package-Roots: /apps/aemnerd
 Implementation-Version: 1.0-SNAPSHOT
 Built-By: 91981
 Implementation-Vendor-Id: com.aemnerd
-Import-Package: com.aemnerd.core.models;version="[1.0.0,2.0.0)",org.ap
- ache.sling.scripting.sightly;version="[2.0.0,3.0.0)"
+Import-Package: com.adobe.cq.wcm.core.components.models;version="[12.1
+ 2.0,13.0.0)",com.aemnerd.core.models;version="[1.0.0,2.0.0)",org.apac
+ he.sling.scripting.sightly;version="[2.0.0,3.0.0)"
 Content-Package-Type: application
 Created-By: Apache Maven
 Build-Jdk: 1.8.0_51
